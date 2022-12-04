@@ -15,8 +15,21 @@ public class Flower_class {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        dayflower hibiscus=new dayflower("hibiscus","red");
-        
+     dayflower hibiscus =new dayflower("hibiscus","red",4);
+     hibiscus.bloom();
+     System.out.println(hibiscus.color);
+    
+    moonflower datura =new moonflower("datura","white");
+    datura.bloom();
+    System.out.println(datura.name);
+    System.out.println(datura.color);
     }
+   
+   
+    
+    
+    
+    
+    
     
 }

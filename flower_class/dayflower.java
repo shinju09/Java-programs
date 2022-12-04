@@ -8,19 +8,20 @@ package flower_class;
  *
  * @author dhanesh
  */
-public class flower {
+public class dayflower extends flower {
+  
     
-    String name;
-    String color;
-    int petals;
+   public dayflower(String name,String color,int petals)
+   {
+        super.color=color;
+        super.name=name;
+        
+        super.petals=petals;
+      
+    }
     void bloom()
     {
-        System.out.println("flowers bloom");
+        System.out.println("this flower blooms in the morning");
     }
-}
-
     
-
-
- 
-
+}
