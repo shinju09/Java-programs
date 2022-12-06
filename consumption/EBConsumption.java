@@ -29,13 +29,13 @@ public class EBConsumption {
          }
          else if(unit>100&&unit<=500)
              {
-             amount=(unit*2)+3*(unit-100);
+             amount=200+((unit-100)*5);
              System.out.println("The amount is"+amount);
          }
              
        else 
              {
-             amount=500*2+((unit-400)*10)+200;
+             amount=2200+((unit-500*10));
              System.out.println("The amount is"+amount);
              } 
          
